@@ -1,0 +1,97 @@
+body:before {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0) ), url('Anime Banner Full_darker2 Upscale.png');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    font-family: 'Comic Sans MS', 'Comic Sans';
+    z-index: 1;
+    margin: 0;
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    background-size: cover;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.text_div {
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    font-family: 'Comic Sans MS', 'Comic Sans';
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    right: 0;
+    width: 100vw;
+    height: 30vh;
+}
+
+.text_div p {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-style: normal;
+    z-index: 2;
+}
+
+.button_handler {
+    height: calc(100vh - 2px);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+#invite_button {
+    background-color: rgb(255, 40, 2);
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    width: 300px;
+    height: 80px;
+    z-index: 2;
+}
+#invite_button {
+    border-radius: 15px;
+}
+
+#invite_button:focus {
+    background: rgb(219, 33, 0);
+    z-index: 2;
+}
+
+#continue_button {
+    background-color: rgb(2, 255, 15);
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    width: 300px;
+    height: 80px;
+    z-index: 2;
+}
+#continue_button {
+    border-radius: 15px;
+}
+
+.wrapper_div {
+    position: relative;
+    z-index: 2;
+}
+
+
+
